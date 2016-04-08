@@ -1,0 +1,13 @@
+{
+	"rcon_ip": "m4gnus.de",
+	"rcon_port": "25575",
+	"rcon_pw": "supersecretpassword",
+	
+	"startPos": [148, 5, -697],
+	"startRotation": -90,
+	"maxTurning": 60,
+	"acceleration": 5,
+	"maxSpeed": 15,
+	"minSpeed": -1,
+	"speedLoss": 0.1
+}

@@ -1,0 +1,38 @@
+<html>
+	<head>
+		<style>
+			body
+			{
+				overflow: hidden;
+			}
+			#wheel
+			{
+				position: fixed;
+			}
+			button
+			{
+				position: absolute;
+				bottom: 5px;
+				width: 200px;
+				height: 200px;
+				user-select: none;
+				-webkit-user-select: none;
+			}
+			#gas
+			{
+				right: 5px;
+			}
+			#break
+			{
+				left: 5px;
+			}
+		</style>
+	</head>
+	<body>
+		<img id="wheel" width="100%" height="100%" src="wheel.svg"/>
+		<button id="gas"> GAS </button>
+		<button id="break"> BREAK </button>
+		<script src="fulltilt.min.js"></script>
+		<script src="main.js"></script>
+	</body>
+</html>
